@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneSignup" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="629.0" style="-fx-background-color: #192a56;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UyeOL">
+   <children>
+      <JFXTextField fx:id="adi" focusColor="#4ed9ff" labelFloat="true" layoutX="203.0" layoutY="142.0" prefHeight="25.0" prefWidth="205.0" promptText="Username" style="-fx-border-width: 0 0 3px 0; -fx-text-fill: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="sifre" focusColor="#4ed9ff" labelFloat="true" layoutX="203.0" layoutY="232.0" prefHeight="25.0" prefWidth="205.0" promptText="Password" style="-fx-text-fill: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton buttonType="RAISED" layoutX="203.0" layoutY="339.0" onAction="#signup" prefHeight="25.0" prefWidth="205.0" style="-fx-background-color: #289eff;" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="242.0" layoutY="83.0" text="Car" textFill="#289eff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="83.0" text="Review" textFill="#828080">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fill="#289eff" glyphName="CAR" layoutX="280.0" layoutY="56.0" size="30.0" />
+      <JFXButton layoutX="498.0" layoutY="28.0" onAction="#login" prefHeight="35.0" prefWidth="116.0" style="-fx-background-color: #130f40;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+      <FontAwesomeIconView fill="#6b6b6b" glyphName="USER" layoutX="161.0" layoutY="167.0" size="15.0" />
+      <FontAwesomeIconView fill="#6b6b6b" glyphName="KEY" layoutX="161.0" layoutY="257.0" size="15.0" />
+      <Label layoutX="241.0" layoutY="414.0" text="Forgot Your Password?" textFill="#828080" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXPasswordField fx:id="sifretekrar" focusColor="#4ed9ff" labelFloat="true" layoutX="204.0" layoutY="281.0" prefHeight="25.0" prefWidth="205.0" promptText="Password Confirm" style="-fx-text-fill: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXPasswordField>
+      <FontAwesomeIconView fill="#6b6b6b" glyphName="KEY" layoutX="162.0" layoutY="306.0" size="15.0" />
+      <JFXTextField fx:id="email" focusColor="#4ed9ff" labelFloat="true" layoutX="204.0" layoutY="187.0" prefHeight="25.0" prefWidth="205.0" promptText="Email" style="-fx-border-width: 0 0 3px 0; -fx-text-fill: white;" unFocusColor="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <FontAwesomeIconView fill="#6b6b6b" glyphName="ENVELOPE" layoutX="162.0" layoutY="212.0" size="15.0" />
+      <ImageView fx:id="progres" fitHeight="54.0" fitWidth="54.0" layoutX="275.0" layoutY="368.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Spin-1.3s-200px.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

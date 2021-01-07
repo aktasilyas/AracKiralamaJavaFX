@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane fx:id="homeferrari" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="720.0" style="-fx-background-color: #8e99f3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Ferrari">
+   <children>
+      <JFXButton fx:id="ferraripista" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="126.0" layoutY="50.0" onMouseClicked="#fPista" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Ferrari 2020" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/keske-gercek-olsa-karsinizda-ferrari-stallone-konsepti-video-10-660x371.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="167.0" layoutY="198.0" text="2020 FERRARI / 488 PISTA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="153.0" layoutY="225.0" rating="3.0" />
+      <JFXButton fx:id="ferrariportofino" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="412.0" layoutY="50.0" onMouseClicked="#portofino" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Ferrari 2018" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/806x378-ferrarinin-812-gtsi-tam-bir-hiz-canavari-1574041995394.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="437.0" layoutY="188.0" text="2020 FERRARI / PORTOFINO" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="443.0" layoutY="217.0" rating="4.0" />
+      <JFXButton fx:id="ferrarif12" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="126.0" layoutY="315.0" onAction="#f12Berlinetta" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Ferrari 2019" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/2520466_223db48c619c3686e71f536928a0e82a.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="142.0" layoutY="465.0" prefHeight="20.0" prefWidth="198.0" text="FERRARI / F12 BERLINETTA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="140.0" layoutY="495.0" />
+      <JFXButton fx:id="ferrari812" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="413.0" layoutY="315.0" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Ferrari 2017" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/5ea82e3166a97c09eb23e836.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="437.0" layoutY="465.0" prefHeight="20.0" prefWidth="204.0" text="2018 FERRARI / 812 SUPERFAST 6.5 V12" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="443.0" layoutY="494.0" rating="5.0" />
+      <FontAwesomeIconView fx:id="close" fill="RED" glyphName="CLOSE" layoutX="691.0" layoutY="32.0" onMouseClicked="#Close" size="30.0" />
+   </children>
+</AnchorPane>

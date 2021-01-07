@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomePage">
+   <children>
+      <BorderPane fx:id="borderpane" layoutX="285.0" layoutY="143.0" prefHeight="577.0" prefWidth="527.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <Pane prefHeight="577.0" prefWidth="194.0" style="-fx-background-color: #192a56;" BorderPane.alignment="CENTER">
+               <children>
+                  <FontAwesomeIconView fill="#289eff" glyphName="CAR" layoutX="69.0" layoutY="44.0" size="30.0" />
+                  <Label layoutX="18.0" layoutY="65.0" text="Car" textFill="#289eff">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="61.0" layoutY="65.0" text="Review" textFill="#828080">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Line endX="-14.0" layoutX="98.0" layoutY="105.0" startX="-100.0" stroke="WHITE" />
+                  <AnchorPane layoutX="4.0" layoutY="121.0" prefHeight="102.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="31.0" layoutY="29.0" text="Welcome to Cars Review" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="31.0" layoutY="46.0" text="Here you Will Find" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="31.0" layoutY="64.0" text="Cars İnformation" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="1.0" layoutY="216.0" prefHeight="138.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="50.0" layoutY="15.0" text="Dashboard" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <JFXButton layoutX="59.0" layoutY="41.0" text="HOME" textFill="#797979">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="48.0" layoutY="71.0" text="MY CARS" textFill="#797979">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton layoutX="57.0" layoutY="101.0" text="ABOUT" textFill="#797979">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </JFXButton>
+                        <Label layoutX="128.0" layoutY="76.0" text="12" textFill="#56ddff">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Separator layoutX="22.0" layoutY="370.0" prefHeight="19.0" prefWidth="158.0" />
+                  <JFXButton layoutX="53.0" layoutY="389.0" style="-fx-border-color: white;" text="CONTACT US" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </left>
+         <top>
+            <HBox alignment="TOP_RIGHT" prefHeight="39.0" prefWidth="777.0" style="-fx-background-color: #192a56;" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" wrappingWidth="114.568359375">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Text>
+                  <Label fx:id="lblaktar" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="200.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets top="3.0" />
+                     </padding>
+                  </Label>
+                  <MaterialDesignIconView fx:id="menu" fill="WHITE" glyphName="DOTS_VERTICAL" size="30.0" />
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

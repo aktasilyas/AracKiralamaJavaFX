@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane fx:id="homeferrari" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="720.0" style="-fx-background-color: #8e99f3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Bugatti">
+   <children>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="126.0" layoutY="50.0" onAction="#veyron2005" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Bugatti 2005" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/indir%20(1).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="195.0" layoutY="207.0" text="Bugatti Veyron" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="153.0" layoutY="225.0" rating="1.0" />
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="412.0" layoutY="50.0" onAction="#Chiron2017" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Bugatti 2017" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/07-ss300p-ehra-lessien-web-1567417975.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="482.0" layoutY="187.0" text="Bugatti Chiron" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="443.0" layoutY="217.0" rating="4.0" />
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="126.0" layoutY="315.0" onAction="#Veyron2010" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Bugatti 2010" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/keske-gercek-olsa-karsinizda-ferrari-stallone-konsepti-video-10-660x371.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="153.0" layoutY="465.0" prefHeight="20.0" prefWidth="198.0" text="Bugatti Veyron F48" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="140.0" layoutY="495.0" rating="3.0" />
+      <JFXButton alignment="TOP_CENTER" contentDisplay="TOP" layoutX="413.0" layoutY="315.0" onAction="#Chiron2020" prefHeight="234.0" prefWidth="237.0" style="-fx-background-color: #192a56;" text="Bugatti 2020" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="126.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/unnamed.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="443.0" layoutY="465.0" prefHeight="20.0" prefWidth="204.0" text="Bugatti Chiron T50" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rating layoutX="443.0" layoutY="494.0" rating="5.0" />
+      <FontAwesomeIconView fx:id="close" fill="RED" glyphName="CLOSE" layoutX="691.0" layoutY="32.0" onMouseClicked="#Close" size="30.0" />
+   </children>
+</AnchorPane>
